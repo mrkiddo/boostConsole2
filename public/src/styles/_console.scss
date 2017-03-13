@@ -1,0 +1,19 @@
+.console {
+    .row {
+        .content, .cursor {
+            display: inline-block;
+        }
+        .cursor {
+            width: 10px;
+            height: $font-size-default;
+            background-color: $very-light;
+        }
+
+        &.editable {
+            span {
+                display: inline-block;
+                min-width: 10px;
+            }
+        }
+    }
+}

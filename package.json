@@ -1,0 +1,30 @@
+{
+  "name": "boost-console2",
+  "version": "0.0.1",
+  "description": "web based console-like app second generation",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify public/src/scripts/main.js > public/dist/scripts/bundle.js",
+    "scss": "node-sass public/src/styles/main.scss > public/dist/styles/main.css",
+    "build": "npm run browserify && npm run scss",
+    "serve": "http-server"
+  },
+  "keywords": [
+    "console",
+    "command",
+    "line"
+  ],
+  "author": "Jiawei Luo <weiwei100fun@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrkiddo/boostConsole2.git"
+  }
+}
