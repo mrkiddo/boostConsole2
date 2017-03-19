@@ -25,7 +25,13 @@ var Console = function (element, config) {
 };
 
 // class members
-Console.tmlConsole = '<div class="console">' + 
+Console.basicConsoleInfo = '<div class="info">' +
+                             '<p>boostconsole 2</p>' +
+                             '<p>(C) 2017 Jiawei Luo</p>' +
+                           '</div>';
+
+Console.tmlConsole = '<div class="console">' +
+                       Console.basicConsoleInfo +
                        '<div class="container">' +
                       '</div>' +
                      '</div>';
