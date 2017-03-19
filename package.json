@@ -1,6 +1,6 @@
 {
   "name": "boost-console2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "web based console-like app second generation",
   "main": "main.js",
   "scripts": {
