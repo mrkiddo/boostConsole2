@@ -1,0 +1,39 @@
+.app .tab {
+    .tab-set {
+        margin: 0;
+        padding: 20px;
+        font-size: 0px;
+    }
+    li {
+        display: inline-block;
+    }
+    li.app-name {
+        margin-right: 20px;
+        font-size: $default-app-name-font-size;
+        font-weight: bold;
+    }
+    li.tab-item {
+        margin-right: 5px;
+        padding: 3px 5px;
+        border-radius: 5px;
+        background-color: $lighter-blue;
+        opacity: 0.6;
+        cursor: pointer;
+        font-size: $font-size-default;
+        &.active {
+            background-color: $light-blue;
+            opacity: 1;
+            cursor: auto;
+        }
+        &:hover {
+            opacity: 0.9;
+        }
+        &.active:hover {
+            opacity: 1;
+        }
+        &.add {
+            min-width: 15px;
+            text-align: center;
+        }
+    }
+}

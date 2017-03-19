@@ -9,10 +9,5 @@ body {
     min-height: 500px;
     color: $very-light;
     font-family: $font-family-default;
-
-    .tab {
-        li {
-            display: inline-block;
-        }
-    }
+    font-size: $font-size-default;
 }
